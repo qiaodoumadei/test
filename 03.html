@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<title></title>
+		<style type="text/css">
+			body{
+				position: relative;
+				height:100%;
+			}
+			.logo{
+				position: absolute;
+				height: 80px;
+				width: 1200px;
+				left: 60px;
+				background: #FFFFFF;
+				top: 30px;
+			}
+			.but{
+				position: absolute;
+				left: 450px;
+				top: 7px;
+			}
+			.but a{
+				width: 100px;
+				height: 30px;
+				display: inline-block;
+				border-radius: 30px ;
+				height:40px;
+				width: 120px;
+				font-size:20px;
+				margin: 10px;
+				color: black;
+				line-height: 38px;
+				text-decoration: none;
+				text-align: center;
+			}
+			.con1{
+				position: absolute;
+				width: 1200px;
+				height: 600px;
+				left: 60px;
+				top: 160px;
+			}
+			.con1 img{
+				width: 100%;
+			}
+			.con2{
+				position: absolute;
+				left: 60px;
+				top: 560px;
+			}
+			
+			
+			
+			.con3{
+				position: absolute;
+				left: 60px;
+				height: 400px;
+				top: 680px;
+				
+			}
+			.con3 img{
+				width: 315px;
+				height: 250px;
+			}
+			.p1{
+				position: absolute;
+				left: 60px;
+				top: 950px;
+			}
+			.cont1_1{
+				position: absolute;
+				left: 335px;
+				top: 0px;
+				width: 865px;
+				height: 210px;
+			}
+			.cont1_1 .tp0{
+				font-size:20px ;
+				color: black;
+				position: absolute;
+				top:-5px;
+			}
+			.cont1_1 .tp1{
+				font-size:16px ;
+				color: #4A4A4A;
+				position: absolute;
+				top:0px;
+				left:700px;
+			}
+			.cont1_1 .tp2{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:30px;
+				
+			}
+			.cont1_1 .tp3{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:60px;
+				
+			}
+			.cont1_1 a{
+				font-size:16px ;
+				color: #0B63D6;
+				position: absolute;
+				top:185px;
+			}
+			
+			
+			.con4{
+				position: absolute;
+				height: 400px;
+				left: 60px;
+				top: 960px;
+			}
+			.con4 img{
+				width: 315px;
+				height: 250px;
+			}
+			.p2{
+				position: absolute;
+				left: 60px;
+				top: 1220px;
+			}
+			.con4 .cont1_2{
+				position: absolute;
+				left: 335px;
+				top: 0px;
+				width: 865px;
+				height: 210px;
+				
+			}
+			.con4 .cont1_2 .tp0{
+				font-size:20px ;
+				color: black;
+				position: absolute;
+				top:0px;
+			}
+			.con4 .cont1_2 .tp1{
+				font-size:16px ;
+				color: #4A4A4A;
+				position: absolute;
+				top:10px;
+				left:700px;
+			}
+			.con4 .cont1_2 .tp2{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:40px;
+				
+			}
+			.con4 .cont1_2 .tp3{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:70px;
+				
+			}
+			.con4 .cont1_2 a{
+				font-size:16px ;
+				color: #0B63D6;
+				position: absolute;
+				top:185px;
+			}
+			
+			.con5{
+				position: absolute;
+				height: 400px;
+				left: 60px;
+				top: 1240px;
+			}
+			.con5 img{
+				width: 315px;
+				height: 250px;
+			}
+			.p3{
+				position: absolute;
+				left: 60px;
+				top: 1500px;
+			}
+			.con5 .cont1_3{
+				position: absolute;
+				left: 335px;
+				top: 0px;
+				width: 865px;
+				height: 210px;
+				
+			}
+			.con5 .cont1_3 .tp0{
+				font-size:20px ;
+				color: black;
+				position: absolute;
+				top:0px;
+			}
+			.con5 .cont1_3 .tp1{
+				font-size:16px ;
+				color: #4A4A4A;
+				position: absolute;
+				top:10px;
+				left:700px;
+			}
+			.con5 .cont1_3 .tp2{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:40px;
+				
+			}
+			.con5 .cont1_3 .tp3{
+				font-size:16px ;
+				color: #808080;
+				position: absolute;
+				top:70px;
+				
+			}
+			.con5 .cont1_3 a{
+				font-size:16px ;
+				color: #0B63D6;
+				position: absolute;
+				top:185px;
+			}
+			
+			
+			.con6{
+				position: absolute;
+				width: 1200px;
+				height: 100px;
+				left: 60px;
+				top: 1520px;
+			}
+			.con6 .pagination a{
+				left: 360px;
+				height: 50px;
+				width: 50px;
+				font-size: 20px;
+				text-align: center;
+			}
+			.p4{
+				position: absolute;
+				left: 60px;
+				top: 1620px;
+			}
+			.con7{
+				position: absolute;
+				left: 360px;
+				top: 1680px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="img/1.png"/>
+			<div class="but">
+				<a href="index.html">首页</a>
+				<a href="02..html" >产品方案</a>
+				<a href="03.html"  style="background: #0B63D6;color: white;" >公司动态</a>
+				<a href="04.html"  >关于我们</a>
+				<a href="05.html"  >加入我们</a>
+			</div>
+		</div>
+		
+		<div class="con1">
+			<img src="img/40.png"/>
+		</div>
+		
+		<div class="con2">
+			<img src="img/7B.png"/>
+		</div>
+		
+		<div class="con3">
+			<img src="img/41.png"/>
+			<div class="cont1_1">
+				<p class="tp0">植材小学--基于移动终端的未来课堂展示暨智慧校园建设研讨会</p>
+				<p class="tp1">2017年08月09日</p>
+				<p class="tp2">关键字：植材小学,基于移动终端,未来课堂展示,智慧校园建设</p>
+				<p class="tp3">内容概要：为信息技术与课堂教学的深度融合搭建交流和研讨的平台，更好地推进智慧教育深度创新应用项目建设，
+								探索基于移动端的“未来课堂”教学模式，2017 年6月16日，在桐乡市教研室、教育装备中心的大力支持下，
+								乌镇植材小学承办了基于移动终端的未来课堂展示暨智慧校园建设研讨会。嘉兴市教育装备中心周雯，桐乡市教研室蔡祖良，
+								嘉兴市首批中小学智慧教育深度创新应用项目负责人以及来自桐乡市中小学50多位教师参加了本次研讨活动。
+								苏州博智电子科技有限公司承担本次活动的技术支持。
+				</p>
+				<a href="">>>阅读全文</a>
+				
+			</div>
+			
+		</div>
+		<p class="p1" style="width: 1200px;height: 1px; background: #DDDDDD;"></p>
+		
+			
+		<div class="con4">
+			<img src="img/42.png"/>
+			<div class="cont1_2">
+				<p class="tp0">教育部杜占元副部长考察我公司试点学校教育信息化建设工作</p>
+				<p class="tp1">2017年02月14日</p>
+				<p class="tp2">关键字：教育信息化 数字化校园 杜占元副部长</p>
+				<p class="tp3">内容概要：为调研海南省教育信息化成效、做法、经验以及存在的问题，
+								了解下一步工作举措及意见建议，2月13日下午，
+								教育部副部长杜占元率领教育部调研组莅临我公司试点学校海南海口市二十七小学，
+								对学校教育信息化工作进行考察。海口市政府龙卫东副市长、市政协厉春副主席、区政府陈安妮副区长，
+								海南省教育厅、市教育局相关部门领导，秀英区教育局、海秀街道办主要领导等陪同
+				</p>
+				<a href="">>>阅读全文</a>
+			</div>
+			
+		</div>
+		<p class="p2" style="width: 1200px;height: 1px; background: #DDDDDD;"></p>
+		
+		
+		<div class="con5">
+			<img src="img/43.png"/>
+			<div class="cont1_3">
+				<p class="tp0">金坛区第175期金坛公开课活动暨区数字化学习现场观摩活动..</p>
+				<p class="tp1">2017年02月14日</p>
+				<p class="tp2">关键字：数字化教学研讨 钱冬明教授</p>
+				<p class="tp3">内容概要：2016年12月29日下午，金坛区第175期金坛公开课活动暨区数字化学习现场观摩活动在朱林中心小学举行。
+							华东师大教育信息化系统工程研究中心常务副主任钱冬明、区教师发展中心曹少华主任、
+							陈国富副主任、装备中心赵建平副主任和相关人员、苏州文萃小学代表、
+							全区各小学数字化负责人及骨干教师参加了活动
+				</p>
+				<a href="">>>阅读全文</a>
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		<p class="p3" style="width: 1200px;height: 1px; background: #DDDDDD;"></p>
+		
+		<div class="con6">
+			<nav aria-label="Page navigation">
+			  <ul class="pagination">
+			    <li>
+			      <a href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li><a href="#">4</a></li>
+			    <li><a href="#">5</a></li>
+			    <li><a href="#">6</a></li>
+			    <li><a href="#">7</a></li>
+			    <li><a href="#">8</a></li>
+			    <li>
+			      <a href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+			
+			
+		</div>
+		<p class="p4" style="width: 1200px;height: 1px; background: #DDDDDD;"></p>
+		
+		<div class="con7">
+			<p>产品介绍 公司动态 关于我们 加入我们</p>
+			<br />
+			<p>©苏州博智电子科技有限公司 2017 All Rights Reserved. 苏ICP备15025316号</p>
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
